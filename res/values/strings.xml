@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BloodBank</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile (+91)</string>
+    <string name="email">email</string>
+    <string name="blood_group">Blood group</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="pincode">Pincode</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
