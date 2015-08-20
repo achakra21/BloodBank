@@ -45,7 +45,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.reg_layout);
 		sharedpreferences = getSharedPreferences(LOGINPREFERENCES,
 				Context.MODE_PRIVATE);
 		initUI();
@@ -69,14 +69,14 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 	}
 
 	public void initUI() {
-		bldgrpSpinner = (Spinner) findViewById(R.id.blood_grp_spinner);
-		btnSubmit = (Button) findViewById(R.id.btn_submit);
+		bldgrpSpinner = (Spinner) findViewById(R.id.bloodGroup);
+		btnSubmit = (Button) findViewById(R.id.register);
 		firstName = (EditText) findViewById(R.id.firstName);
 		lastName = (EditText) findViewById(R.id.lastName);
-		mobileNumber = (EditText) findViewById(R.id.mobile_number);
+		mobileNumber = (EditText) findViewById(R.id.phoneNumber);
 		city = (EditText) findViewById(R.id.fieldCity);
 		state = (EditText) findViewById(R.id.fieldState);
-		pincode = (EditText) findViewById(R.id.pin_code);
+		pincode = (EditText) findViewById(R.id.pinCode);
 		email = (EditText) findViewById(R.id.email);
 
 		// get the string textfield
